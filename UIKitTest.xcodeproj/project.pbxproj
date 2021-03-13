@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F496FD8725F3A8AE00C1A4FD /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FD8625F3A8AE00C1A4FD /* MetalViewController.swift */; };
+		F496FD8C25F3A8C600C1A4FD /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FD8B25F3A8C600C1A4FD /* VideoViewController.swift */; };
+		F496FD9425F3AE0400C1A4FD /* CapturedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FD9325F3AE0400C1A4FD /* CapturedImageView.swift */; };
+		F496FDA725F40A1300C1A4FD /* MetalCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDA625F40A1300C1A4FD /* MetalCircleView.swift */; };
+		F496FDAF25F40C5200C1A4FD /* CircleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F496FDAE25F40C5200C1A4FD /* CircleShader.metal */; };
+		F496FDB425F411CD00C1A4FD /* GraphicContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDB325F411CD00C1A4FD /* GraphicContext.swift */; };
+		F496FDB925F4120000C1A4FD /* simple-shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F496FDB825F4120000C1A4FD /* simple-shader.metal */; };
+		F496FDC125F4125C00C1A4FD /* shader-loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDC025F4125C00C1A4FD /* shader-loader.swift */; };
+		F496FDC925F412B800C1A4FD /* MTLBuffer_object.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDC825F412B800C1A4FD /* MTLBuffer_object.swift */; };
+		F496FDCE25F41B5900C1A4FD /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDCD25F41B5900C1A4FD /* UIImageExtension.swift */; };
+		F496FDD325F41BF800C1A4FD /* AssestsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDD225F41BF800C1A4FD /* AssestsExtension.swift */; };
+		F496FDDA25F41C7600C1A4FD /* ThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDD925F41C7600C1A4FD /* ThresholdFilter.swift */; };
+		F496FDDF25F41CA100C1A4FD /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDDE25F41CA100C1A4FD /* MediaFilter.swift */; };
+		F496FDE425F41CE500C1A4FD /* FilterProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDE325F41CE500C1A4FD /* FilterProcessor.swift */; };
+		F496FDEC25F41D9200C1A4FD /* FilterShaderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDEB25F41D9200C1A4FD /* FilterShaderProvider.swift */; };
+		F496FDF125F41DB300C1A4FD /* ColorFIlter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDF025F41DB300C1A4FD /* ColorFIlter.swift */; };
+		F496FDF625F41E1A00C1A4FD /* FilterShaderParamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDF525F41E1A00C1A4FD /* FilterShaderParamManager.swift */; };
+		F496FDFB25F41E3D00C1A4FD /* BlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDFA25F41E3D00C1A4FD /* BlurFilter.swift */; };
+		F496FE0025F41EEC00C1A4FD /* SobelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FDFF25F41EEC00C1A4FD /* SobelFilter.swift */; };
+		F496FE0525F41F0E00C1A4FD /* SepiaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FE0425F41F0E00C1A4FD /* SepiaFilter.swift */; };
+		F496FE0D25F423F700C1A4FD /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FE0C25F423F700C1A4FD /* MediaItem.swift */; };
+		F496FE1225F4241B00C1A4FD /* MediaElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FE1125F4241B00C1A4FD /* MediaElement.swift */; };
+		F496FE1725F4245E00C1A4FD /* MediaProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496FE1625F4245E00C1A4FD /* MediaProcessor.swift */; };
 		F4E1380025F0BBA900818A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E137FF25F0BBA900818A1B /* AppDelegate.swift */; };
 		F4E1380225F0BBA900818A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1380125F0BBA900818A1B /* SceneDelegate.swift */; };
-		F4E1380425F0BBA900818A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1380325F0BBA900818A1B /* ViewController.swift */; };
+		F4E1380425F0BBA900818A1B /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1380325F0BBA900818A1B /* FeedsViewController.swift */; };
 		F4E1380725F0BBA900818A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1380525F0BBA900818A1B /* Main.storyboard */; };
 		F4E1380A25F0BBA900818A1B /* UIKitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4E1380825F0BBA900818A1B /* UIKitTest.xcdatamodeld */; };
 		F4E1380C25F0BBAA00818A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E1380B25F0BBAA00818A1B /* Assets.xcassets */; };
 		F4E1380F25F0BBAA00818A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1380D25F0BBAA00818A1B /* LaunchScreen.storyboard */; };
 		F4E1381A25F0BBAA00818A1B /* UIKitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1381925F0BBAA00818A1B /* UIKitTestTests.swift */; };
 		F4E1382525F0BBAA00818A1B /* UIKitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1382425F0BBAA00818A1B /* UIKitTestUITests.swift */; };
+		F4E1383625F0BC4600818A1B /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1383525F0BC4600818A1B /* CountryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +60,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F496FD8625F3A8AE00C1A4FD /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		F496FD8B25F3A8C600C1A4FD /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F496FD9325F3AE0400C1A4FD /* CapturedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedImageView.swift; sourceTree = "<group>"; };
+		F496FDA625F40A1300C1A4FD /* MetalCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalCircleView.swift; sourceTree = "<group>"; };
+		F496FDAE25F40C5200C1A4FD /* CircleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CircleShader.metal; sourceTree = "<group>"; };
+		F496FDB325F411CD00C1A4FD /* GraphicContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicContext.swift; sourceTree = "<group>"; };
+		F496FDB825F4120000C1A4FD /* simple-shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "simple-shader.metal"; sourceTree = "<group>"; };
+		F496FDC025F4125C00C1A4FD /* shader-loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "shader-loader.swift"; sourceTree = "<group>"; };
+		F496FDC825F412B800C1A4FD /* MTLBuffer_object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLBuffer_object.swift; sourceTree = "<group>"; };
+		F496FDCD25F41B5900C1A4FD /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		F496FDD225F41BF800C1A4FD /* AssestsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssestsExtension.swift; sourceTree = "<group>"; };
+		F496FDD925F41C7600C1A4FD /* ThresholdFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdFilter.swift; sourceTree = "<group>"; };
+		F496FDDE25F41CA100C1A4FD /* MediaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFilter.swift; sourceTree = "<group>"; };
+		F496FDE325F41CE500C1A4FD /* FilterProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProcessor.swift; sourceTree = "<group>"; };
+		F496FDEB25F41D9200C1A4FD /* FilterShaderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterShaderProvider.swift; sourceTree = "<group>"; };
+		F496FDF025F41DB300C1A4FD /* ColorFIlter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFIlter.swift; sourceTree = "<group>"; };
+		F496FDF525F41E1A00C1A4FD /* FilterShaderParamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterShaderParamManager.swift; sourceTree = "<group>"; };
+		F496FDFA25F41E3D00C1A4FD /* BlurFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFilter.swift; sourceTree = "<group>"; };
+		F496FDFF25F41EEC00C1A4FD /* SobelFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobelFilter.swift; sourceTree = "<group>"; };
+		F496FE0425F41F0E00C1A4FD /* SepiaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaFilter.swift; sourceTree = "<group>"; };
+		F496FE0C25F423F700C1A4FD /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		F496FE1125F4241B00C1A4FD /* MediaElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaElement.swift; sourceTree = "<group>"; };
+		F496FE1625F4245E00C1A4FD /* MediaProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaProcessor.swift; sourceTree = "<group>"; };
 		F4E137FC25F0BBA900818A1B /* UIKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E137FF25F0BBA900818A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E1380125F0BBA900818A1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4E1380325F0BBA900818A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E1380325F0BBA900818A1B /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
 		F4E1380625F0BBA900818A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E1380925F0BBA900818A1B /* UIKitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIKitTest.xcdatamodel; sourceTree = "<group>"; };
 		F4E1380B25F0BBAA00818A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +98,7 @@
 		F4E1382025F0BBAA00818A1B /* UIKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E1382425F0BBAA00818A1B /* UIKitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitTestUITests.swift; sourceTree = "<group>"; };
 		F4E1382625F0BBAA00818A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E1383525F0BC4600818A1B /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +126,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F496FDA525F409F700C1A4FD /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				F496FDD825F41C5F00C1A4FD /* FIlters */,
+				F496FDD725F41C0500C1A4FD /* Overlay */,
+				F496FDA625F40A1300C1A4FD /* MetalCircleView.swift */,
+				F496FDAE25F40C5200C1A4FD /* CircleShader.metal */,
+				F496FDB825F4120000C1A4FD /* simple-shader.metal */,
+				F496FDC025F4125C00C1A4FD /* shader-loader.swift */,
+				F496FDC825F412B800C1A4FD /* MTLBuffer_object.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		F496FDD725F41C0500C1A4FD /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				F496FDCD25F41B5900C1A4FD /* UIImageExtension.swift */,
+				F496FDD225F41BF800C1A4FD /* AssestsExtension.swift */,
+				F496FDE325F41CE500C1A4FD /* FilterProcessor.swift */,
+				F496FE0C25F423F700C1A4FD /* MediaItem.swift */,
+				F496FE1125F4241B00C1A4FD /* MediaElement.swift */,
+				F496FE1625F4245E00C1A4FD /* MediaProcessor.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		F496FDD825F41C5F00C1A4FD /* FIlters */ = {
+			isa = PBXGroup;
+			children = (
+				F496FDB325F411CD00C1A4FD /* GraphicContext.swift */,
+				F496FDD925F41C7600C1A4FD /* ThresholdFilter.swift */,
+				F496FDDE25F41CA100C1A4FD /* MediaFilter.swift */,
+				F496FDEB25F41D9200C1A4FD /* FilterShaderProvider.swift */,
+				F496FDF025F41DB300C1A4FD /* ColorFIlter.swift */,
+				F496FDF525F41E1A00C1A4FD /* FilterShaderParamManager.swift */,
+				F496FDFA25F41E3D00C1A4FD /* BlurFilter.swift */,
+				F496FDFF25F41EEC00C1A4FD /* SobelFilter.swift */,
+				F496FE0425F41F0E00C1A4FD /* SepiaFilter.swift */,
+			);
+			path = FIlters;
+			sourceTree = "<group>";
+		};
 		F4E137F325F0BBA900818A1B = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +192,19 @@
 		F4E137FE25F0BBA900818A1B /* UIKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				F496FDA525F409F700C1A4FD /* Metal */,
 				F4E137FF25F0BBA900818A1B /* AppDelegate.swift */,
+				F496FD8B25F3A8C600C1A4FD /* VideoViewController.swift */,
 				F4E1380125F0BBA900818A1B /* SceneDelegate.swift */,
-				F4E1380325F0BBA900818A1B /* ViewController.swift */,
+				F496FD8625F3A8AE00C1A4FD /* MetalViewController.swift */,
+				F4E1380325F0BBA900818A1B /* FeedsViewController.swift */,
+				F496FD9325F3AE0400C1A4FD /* CapturedImageView.swift */,
 				F4E1380525F0BBA900818A1B /* Main.storyboard */,
 				F4E1380B25F0BBAA00818A1B /* Assets.xcassets */,
 				F4E1380D25F0BBAA00818A1B /* LaunchScreen.storyboard */,
 				F4E1381025F0BBAA00818A1B /* Info.plist */,
 				F4E1380825F0BBA900818A1B /* UIKitTest.xcdatamodeld */,
+				F4E1383525F0BC4600818A1B /* CountryView.swift */,
 			);
 			path = UIKitTest;
 			sourceTree = "<group>";
@@ -261,10 +357,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F496FD9425F3AE0400C1A4FD /* CapturedImageView.swift in Sources */,
+				F496FDC125F4125C00C1A4FD /* shader-loader.swift in Sources */,
+				F496FDC925F412B800C1A4FD /* MTLBuffer_object.swift in Sources */,
+				F4E1383625F0BC4600818A1B /* CountryView.swift in Sources */,
+				F496FDFB25F41E3D00C1A4FD /* BlurFilter.swift in Sources */,
+				F496FDD325F41BF800C1A4FD /* AssestsExtension.swift in Sources */,
+				F496FD8C25F3A8C600C1A4FD /* VideoViewController.swift in Sources */,
+				F496FE1725F4245E00C1A4FD /* MediaProcessor.swift in Sources */,
 				F4E1380A25F0BBA900818A1B /* UIKitTest.xcdatamodeld in Sources */,
-				F4E1380425F0BBA900818A1B /* ViewController.swift in Sources */,
+				F496FDAF25F40C5200C1A4FD /* CircleShader.metal in Sources */,
+				F496FD8725F3A8AE00C1A4FD /* MetalViewController.swift in Sources */,
+				F496FDCE25F41B5900C1A4FD /* UIImageExtension.swift in Sources */,
+				F496FDF625F41E1A00C1A4FD /* FilterShaderParamManager.swift in Sources */,
+				F4E1380425F0BBA900818A1B /* FeedsViewController.swift in Sources */,
+				F496FE0D25F423F700C1A4FD /* MediaItem.swift in Sources */,
+				F496FDA725F40A1300C1A4FD /* MetalCircleView.swift in Sources */,
 				F4E1380025F0BBA900818A1B /* AppDelegate.swift in Sources */,
+				F496FE1225F4241B00C1A4FD /* MediaElement.swift in Sources */,
+				F496FDEC25F41D9200C1A4FD /* FilterShaderProvider.swift in Sources */,
+				F496FDDA25F41C7600C1A4FD /* ThresholdFilter.swift in Sources */,
+				F496FDB425F411CD00C1A4FD /* GraphicContext.swift in Sources */,
+				F496FDE425F41CE500C1A4FD /* FilterProcessor.swift in Sources */,
+				F496FDB925F4120000C1A4FD /* simple-shader.metal in Sources */,
+				F496FDF125F41DB300C1A4FD /* ColorFIlter.swift in Sources */,
+				F496FDDF25F41CA100C1A4FD /* MediaFilter.swift in Sources */,
 				F4E1380225F0BBA900818A1B /* SceneDelegate.swift in Sources */,
+				F496FE0525F41F0E00C1A4FD /* SepiaFilter.swift in Sources */,
+				F496FE0025F41EEC00C1A4FD /* SobelFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CNG79B32AZ;
 				INFOPLIST_FILE = UIKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CNG79B32AZ;
 				INFOPLIST_FILE = UIKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

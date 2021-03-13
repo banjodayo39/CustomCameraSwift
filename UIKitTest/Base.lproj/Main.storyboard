@@ -1,24 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eDz-TO-IVl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Video-->
+        <scene sceneID="xpF-DE-lvJ">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="d4q-Ua-TWz" customClass="VideoViewController" customModule="UIKitTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adj-5V-JlS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="7vg-VH-iPH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Video" image="video" catalog="system" selectedImage="video.fill" id="K5i-le-f9g"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fB4-u5-81P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1791" y="52"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="iaR-Xn-Oqm">
+            <objects>
+                <viewController id="IbG-bd-Ab1" customClass="FeedsViewController" customModule="UIKitTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cQO-BO-tWO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Spw-gc-ags"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Metal" image="camera" catalog="system" selectedImage="camera.fill" id="R5T-P9-DPo"/>
+                    <navigationItem key="navigationItem" title="Camera" id="pAT-Y4-mja"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wEZ-td-fbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-930" y="796"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="sN7-tj-Ay4">
+            <objects>
+                <navigationController id="EeI-8B-7pM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="U0g-zp-I7X"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cKy-JA-fic">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yv8-t5-z3w" kind="relationship" relationship="rootViewController" id="cIB-oX-dqj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPw-9r-iUz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="27"/>
+        </scene>
+        <!--Metal-->
+        <scene sceneID="zl0-zn-uta">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lj7-5C-IeG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="yv8-t5-z3w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jew-AL-bZi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QZh-bE-nTf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Metal" image="camera.metering.center.weighted.average" catalog="system" selectedImage="camera.metering.matrix" id="e0A-po-ug2"/>
+                    <navigationItem key="navigationItem" title="Metal" id="bTe-78-7YC"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="64" y="757"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BBe-XN-U69">
+            <objects>
+                <navigationController id="GzW-Lo-feL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UdK-ZD-M7w">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6O-wN-3aZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2464" y="-621"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="hTC-PZ-43r">
+            <objects>
+                <tabBarController modalPresentationStyle="fullScreen" id="eDz-TO-IVl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="BZG-pQ-WWY"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CRh-X8-UlR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="d4q-Ua-TWz" kind="relationship" relationship="viewControllers" id="m9E-hI-iWc"/>
+                        <segue destination="J2M-8g-KV1" kind="relationship" relationship="viewControllers" id="l6h-7w-qaK"/>
+                        <segue destination="EeI-8B-7pM" kind="relationship" relationship="viewControllers" id="dpn-dB-7dX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uJ4-Tt-SWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-930" y="-733"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="24x-tJ-sgB">
+            <objects>
+                <navigationController id="J2M-8g-KV1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" catalog="system" id="3gu-F4-H2P"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dAG-fc-zzz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IbG-bd-Ab1" kind="relationship" relationship="rootViewController" id="1U6-0K-2gR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmj-fv-AH3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-930" y="28"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="94"/>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
+        <image name="camera.metering.center.weighted.average" catalog="system" width="128" height="93"/>
+        <image name="camera.metering.matrix" catalog="system" width="128" height="93"/>
+        <image name="video" catalog="system" width="128" height="83"/>
+        <image name="video.fill" catalog="system" width="128" height="82"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
